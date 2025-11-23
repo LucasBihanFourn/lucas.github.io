@@ -1,0 +1,289 @@
+#logo{
+    transition: 0.5s;
+}
+#logo:hover{
+    transform: scale(1.1);
+}
+
+#card{
+    transition: 0.5s;
+}
+
+#card:hover{
+    transform: scale(1.1);
+}
+html{
+    scroll-behavior: smooth;
+}
+#moi{
+    width: 60%;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+#moi:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 40px #f65a5a;
+}
+#cv{
+    margin-left: 160%;
+}
+#cv:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
+.cv{
+    transition: 0.2s;
+}
+.cv:hover{
+    color: white;
+}
+#iutlycee{
+    width: 90%;
+    transition: 0.5s;
+}
+#iutlycee:hover{
+    opacity: 60%;
+}
+#iut{
+    width: 10%;
+    margin-top: 20%;
+    transition: 0.5s;
+    position: relative;
+    left: 90%;
+}#iut:hover{
+    transform: scale(1.1);
+}
+#lycee{
+    width: 10%;
+    margin-top: 20%;
+    transition: 0.5s;
+}
+#lycee:hover{
+    transform: scale(1.1);
+}
+#rondebretonne{
+    width: 40%;
+    margin-left: 20%;
+    transition: 0.5s;
+}
+#rondebretonne:hover{
+    transform: scale(1.1);
+}
+#carousel-demo img{
+    width: 80%;
+    display: block;
+    margin: auto;
+    border: 4mm ridge #000000;
+}
+#carouselhidden{
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.drop {
+    width: 800px;
+    margin: 20px auto;
+    background: #f65a5a;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#one{
+    margin-left: 20%;
+    transition: 0.5s;
+}
+#one:hover{
+    transform: scale(1.03);
+}
+#two{
+    margin-right: 20%;
+    transition: 0.5s;
+}
+#two:hover{
+    transform: scale(1.03); 
+}
+  
+.btn-top {
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+  
+.bloc-links {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.4s ease;
+    padding: 0 20px;
+}
+  
+.bloc-links li {
+    list-style: none;
+    padding: 10px 0;
+}
+  
+.bloc-links li a {
+    color: white;
+    text-decoration: none;
+}
+  
+.bloc-links li:last-child {
+    padding-bottom: 20px;
+}
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+  
+.column {
+    width: 50%;
+}
+
+.Hardskills {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 600;
+}
+  
+.column h3 {
+    font-size: 16px;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+  
+.column ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.column li {
+    font-size: 16px;
+    color: #f1f1f1;
+    margin-bottom: 10px;
+}
+.competence{
+    color: #221f1f;
+    font-weight: 700;
+}
+.fleche{
+    width: 3%;
+}
+
+.hidden { display: none; }
+
+.card {
+    width: 75%;
+    max-height: 350px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin: auto;
+}
+
+.card:hover {
+    transform: scale(1.08);
+    box-shadow: 0px 8px 16px rgba(255, 255, 255, 0.2);
+}
+
+.card-image img {
+    object-fit: cover;
+    height: 200px;
+}
+
+.interest-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.1s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    background: #f65a5a;
+    width: 400px;
+    height: 90px;
+    margin: 6px auto;
+}
+
+.interest-card:hover {
+    transform: scale(1.015);
+}
+
+.interest-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+}
+
+.interest-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card {
+    background: rgb(15, 15, 15);
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.social-buttons {
+    margin-top: 10px;
+    
+}
+.social-buttons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.social-buttons a:hover {
+    transform: scale(1.1);
+}
+
+
+.hidden2 {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.show {
+    display: block;
+    opacity: 1;
+}
+.form-btn {
+    color: rgb(0, 0, 0);
+    background: #f65a5a;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.form-btn:hover{
+    color: #ffffff;
+}
+.fas:hover{
+    transform: scale(1.1);
+}
