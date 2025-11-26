@@ -50,7 +50,8 @@ html{
     transition: 0.5s;
     position: relative;
     left: 90%;
-}#iut:hover{
+}
+#iut:hover{
     transform: scale(1.1);
 }
 #lycee{
@@ -83,7 +84,7 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 .drop {
     width: 800px;
@@ -145,6 +146,10 @@ html{
   
 .column {
     width: 50%;
+}
+
+.projet{
+    margin: 100%;
 }
 
 .Hardskills {
@@ -247,7 +252,6 @@ html{
 
 .social-buttons {
     margin-top: 10px;
-    
 }
 .social-buttons a {
     display: inline-flex;
@@ -259,7 +263,6 @@ html{
 .social-buttons a:hover {
     transform: scale(1.1);
 }
-
 
 .hidden2 {
     display: none;
@@ -287,3 +290,314 @@ html{
 .fas:hover{
     transform: scale(1.1);
 }
+
+.Junior-text{
+    font-size: 8em;
+    margin-left: 15%;
+    margin-top: -5%;
+}
+
+.UX-text{
+    font-size: 4em;
+    margin-left: 40%;
+    margin-top: -5%;
+    color: #e6a3a3;
+}
+
+@media screen and (max-width: 1024px) {
+    .drop {
+        width: 90%;
+        margin: 20px auto;
+    }
+    
+    #one, #two {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .Junior-text {
+        font-size: 6em;
+        margin-left: 10%;
+    }
+    
+    .UX-text {
+        font-size: 3em;
+        margin-left: 30%;
+    }
+    
+    #cv {
+        margin-left: 80%;
+    }
+    
+    .interest-card {
+        width: 90%;
+    }
+    
+    .card {
+        width: 85%;
+    }
+}
+
+/* Tablettes (portrait) */
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    .tabs {
+        font-size: 0.85rem;
+    }
+    
+    .tabs .icon {
+        display: none;
+    }
+    
+    /* Texte titre */
+    .Junior-text {
+        font-size: 4em;
+        margin-left: 5%;
+        margin-top: 0;
+    }
+    
+    .UX-text {
+        font-size: 2em;
+        margin-left: 20%;
+        margin-top: 0;
+    }
+    
+    /* Images */
+    #moi {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    #cv {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    #iutlycee {
+        width: 100%;
+    }
+    
+    #rondebretonne {
+        width: 60%;
+        margin-left: 20%;
+    }
+    
+    
+    .drop {
+        width: 95%;
+    }
+    
+    .skills-container {
+        flex-direction: column;
+    }
+    
+    .column {
+        width: 100%;
+    }
+    
+    .Hardskills {
+        font-size: 20px;
+    }
+    
+    .fleche {
+        width: 5%;
+    }
+    
+  
+    .card {
+        width: 95%;
+        max-height: none;
+    }
+    
+   
+    .interest-card {
+        width: 95%;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .interest-title {
+        font-size: 1.2em;
+    }
+    
+   
+    #carousel-demo img {
+        width: 95%;
+    }
+    
+    
+    .custom-card {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    
+    .tabs {
+        font-size: 0.7rem;
+    }
+    
+    .tabs ul {
+        flex-wrap: wrap;
+    }
+    
+    .tabs li {
+        flex: 1 1 50%;
+    }
+    
+    
+    .title.is-1 {
+        font-size: 2rem;
+    }
+    
+    .title.is-3 {
+        font-size: 1.5rem;
+    }
+    
+    .Junior-text {
+        font-size: 2.5em;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    .UX-text {
+        font-size: 1.5em;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    
+    .subtitle.is-5 {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+    
+    
+    #moi {
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    #cv {
+        margin-left: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #rondebretonne {
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    
+    .drop {
+        width: 100%;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+    
+    .btn-top {
+        padding: 15px;
+    }
+    
+    .Hardskills {
+        font-size: 16px;
+    }
+    
+    .column h3 {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    .column li {
+        font-size: 12px;
+        margin-bottom: 6px;
+        line-height: 1.4;
+    }
+    
+    .competence {
+        font-size: 12px;
+        display: block;
+        margin-bottom: 3px;
+    }
+    
+    .bloc-links {
+        padding: 0 15px;
+    }
+    
+    .bloc-links li {
+        padding: 6px 0;
+    }
+    
+    .bloc-links li:last-child {
+        padding-bottom: 15px;
+    }
+    
+    .fleche {
+        width: 7%;
+    }
+    
+    
+    .card {
+        width: 100%;
+    }
+    
+    .card-content .title {
+        font-size: 1.2rem;
+    }
+    
+    
+    .interest-card {
+        width: 100%;
+        height: auto;
+        padding: 12px;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    
+    .interest-title {
+        font-size: 1em;
+    }
+    
+    .interest-icon {
+        width: 35px;
+        height: 35px;
+    }
+    
+    
+    #carousel-demo img {
+        width: 100%;
+        border-width: 2mm;
+    }
+    
+    
+    .custom-card {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .form-btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+    
+   
+    #logo {
+        font-size: 1.5rem;
+    }
+    
+    
+    .m-6 {
+        margin: 1rem !important;
+    }
+    
+    .pl-5 {
+        padding-left: 1rem !important;
+    }
+    
+    .ml-6 {
+        margin-left: 1rem !important;
+    }
+}
+
